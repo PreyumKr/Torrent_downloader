@@ -54,9 +54,13 @@ class OllamaSelector:
         Returns:
             Selected TorrentInfo or None
         """
-        if not config.USE_OLLAMA or not self._is_available():
-            logger.info("Ollama not available, selecting by seeds")
-            return self._select_by_seeds(torrents)
+        if not config.USE_OLLAMA:
+            logger.info("Ollama is disabled in config.")
+            return None
+            
+        if not self._is_available():
+            logger.error("Ollama service not available. Failing.")
+            return None
         
         try:
             # Build prompt for Ollama
@@ -110,7 +114,7 @@ class OllamaSelector:
             if response.status_code != 200:
                 logger.error(f"Ollama API error: {response.status_code}")
                 logger.error(f"Response: {response.text}")
-                return self._select_by_seeds(torrents)
+                return None
             
             result = response.json()
             response_text = result.get("response", "").strip()
@@ -140,12 +144,11 @@ class OllamaSelector:
                 return selected_torrent
             else:
                 logger.warning(f"Could not parse Ollama response: {response_text}")
-                logger.info(f"Falling back to seed-based selection")
-                return self._select_by_seeds(torrents)
+                return None
                 
         except Exception as e:
             logger.error(f"Error using Ollama: {e}")
-            return self._select_by_seeds(torrents)
+            return None
     
     @staticmethod
     def _format_torrents_for_prompt(torrents: List[TorrentInfo]) -> str:

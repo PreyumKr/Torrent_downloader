@@ -59,7 +59,10 @@ async def download_movie(request: DownloadRequest):
         if request.auto_select:
             selected = ollama_selector.select_best_torrent(torrents, request.name, None, request.existing_items)
         else:
-            selected = torrents[0]
+            # If auto_select is False, we don't have a reliable way to pick the "best" one
+            # without LLM, so we fail to avoid wrong downloads.
+            logger.warning("Auto-select is disabled and no manual selection provided.")
+            selected = None
 
         if isinstance(selected, ollama_selector.AlreadyPresent):
             return DownloadResponse(status="exists", torrent_name="", output_dir=str(output_dir), message=f"Already present: {selected.reason}")
