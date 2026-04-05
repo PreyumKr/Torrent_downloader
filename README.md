@@ -40,7 +40,7 @@ python run_telegrambot.py
 ```
 
 ## How to Test the Series API
-The Series service runs in "Test Mode" on port 8002. It logs all its search results and AI selection decisions without initiating actual downloads.
+The Series service runs in "Test Mode" on port 8002. It logs all its search results and AI selection decisions without initiating actual downloads. It uses a Jellyfin-optimized workflow to determine what's missing.
 
 To test a series decision, send a POST request to the `/test-decision` endpoint:
 
@@ -52,9 +52,10 @@ curl -X POST http://localhost:8002/test-decision \
 ```
 
 ### What to expect:
-- The API will search for "The Boys complete" on 1337x.
-- It will fetch metadata for the series.
-- Ollama will evaluate the found torrents and select the "best" one.
+- The API will search for "The Boys complete" (and other variations) on **PirateBay**.
+- It will fetch canonical metadata for the series from **TVMD**.
+- It will scan the local series folder for existing **Jellyfin-compatible** content.
+- **Ollama** will evaluate the found torrents against the local state and select the "best" strategy (e.g., download a complete season vs individual episodes).
 - **Check the logs**: View detailed decision-making logs in `logs/torrent_api.log`.
 
 ## Logging
