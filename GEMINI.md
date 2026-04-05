@@ -64,6 +64,7 @@ python check_aria2.py
 ```
 
 ## Development Conventions
+- **Git Workflow**: For all changes from now on, you MUST commit the changes with a descriptive message and push them to the remote repository immediately after implementation and verification.
 - **Configuration**: Always add new settings to `app/config.py` and document them in `.env.example`.
 - **Logging**: Use the configured loggers in `app/logging_config.py`. Logs are stored in `logs/torrent_api.log` and `logs/torrent_downloader.log`.
 - **Error Handling**: Use `HTTPException` for API-level errors and ensure all internal services (scraper, aria2, ollama) have robust error handling and logging.
