@@ -78,15 +78,16 @@ class OllamaSelector:
                 existing_text = "\n" + "\n".join(f"- {e}" for e in existing_items)
 
             prompt = f"""You are a torrent quality selector. Given these options for the {content_type} \"{series_name}\",\n
-            CRITICAL RULE: The torrent MUST be for the exact movie or series requested: \"{series_name}\". 
-            If the user asks for \"Moana\", you MUST NOT select \"Moana 2\" or \"Moana 3\". Sequels are different movies.
-            If NO torrents match the exact requested title (ignoring quality tags), respond with: REJECTED: No exact title matches found.\n
+            CRITICAL RULE: The torrent MUST be for the specific movie or series requested: \"{series_name}\". 
+            - Use semantic intelligence: If a user asks for "Dhoom", a torrent named "Dhoom: The Return of Ghost" (hypothetically the first movie) is acceptable.
+            - STRICTLY REJECT SEQUELS: If the user asks for \"Moana\", you MUST NOT select \"Moana 2\" or \"Moana 3\".
+            - If NO torrents match the requested content (ignoring quality tags), respond with: REJECTED: No appropriate title matches found.\n
             
             First, check whether the requested content is already present in the following list of existing items (local files):\n
             {existing_text}\n
             If the item is already present, RESPOND EXACTLY with: ALREADY_PRESENT: <one-line reason explaining the match>.\n
             Otherwise, select the SINGLE BEST torrent for the SPECIFIC movie/series requested based on these criteria (in order):\n
-            1. EXACT TITLE MATCH: Must be the requested movie, not a sequel or different part.
+            1. SEMANTIC TITLE MATCH: Must be the requested movie, not a sequel, prequel, or different part.
             2. PREFERRED RESOLUTION: 1080p (choose 1080p if available)
             3. Seed count (higher is better)
             4. File size (reasonable size, not too huge)
@@ -94,9 +95,9 @@ class OllamaSelector:
             {f'Series details: {seasons_info}' if seasons_info else ''}\n
             Available torrents:\n
             {torrents_text}\n
-            Response format when NOT present: NUMBER: REASON (e.g., "2: 1080p and exact title match").\n
+            Response format when NOT present: NUMBER: REASON (e.g., "2: 1080p and matches requested movie").\n
             Response format when present: ALREADY_PRESENT: REASON\n
-            Response format when no exact matches: REJECTED: REASON\n
+            Response format when no matches: REJECTED: REASON\n
             ONLY provide one line as the response."""
             
             logger.info(f"=== OLLAMA SELECTION ===")

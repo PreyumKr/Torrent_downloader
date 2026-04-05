@@ -45,3 +45,6 @@ When a series name is provided, the system follows this robust workflow:
 - **Jellyfin Compatibility**: All series downloads MUST follow the `Series Name/Season XX/SXXEXX - Title.ext` structure.
 - **Logs**: Do not commit the `logs/` folder. Use `logs/torrent_api.log` for debugging decision-making.
 - **Configuration**: Use `app/config.py` and document all keys in `.env.example`.
+
+## Future Enhancements
+- **Movie Title Verification**: Integrate TVMD API lookup for movie downloads (similar to the series workflow) to provide the LLM with the canonical movie name and year. This will prevent incorrect sequel selection when the user's query is ambiguous.
