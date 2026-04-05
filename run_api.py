@@ -34,12 +34,14 @@ if __name__ == "__main__":
     start_aria2c()
     
     api_host = os.getenv("API_HOST", "0.0.0.0")
+    api_port = os.getenv("API_PORT", "8001")
+    series_api_port = os.getenv("SERIES_API_PORT", "8002")
     
-    print(f"\n[INFO] Starting Movie API on {api_host}:8001...")
-    movie_proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.api_movies:app", "--host", api_host, "--port", "8001"])
+    print(f"\n[INFO] Starting Movie API on {api_host}:{api_port}...")
+    movie_proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.api_movies:app", "--host", api_host, "--port", api_port])
     
-    print(f"[INFO] Starting Series Test API on {api_host}:8002...")
-    series_proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.api_series:app", "--host", api_host, "--port", "8002"])
+    print(f"[INFO] Starting Series Test API on {api_host}:{series_api_port}...")
+    series_proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.api_series:app", "--host", api_host, "--port", series_api_port])
 
     print("\nServices are running. Press Ctrl+C to stop all.")
     try:
