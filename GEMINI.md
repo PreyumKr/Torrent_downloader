@@ -38,7 +38,10 @@ When a series name is provided, the system follows this robust workflow:
 - `run_api.py`: Multi-service entry point.
 
 ## Development Conventions
-- **Git Workflow**: After completing any code changes, implementation, or documentation updates, you MUST immediately stage and commit the changes with a descriptive message and push the latest updates to the remote repository. Always ensure the local and remote repositories are in sync.
+- **GIT WORKFLOW (CRITICAL)**: 
+    - After completing any code changes, implementation, or documentation updates, you MUST immediately stage and commit the changes with a descriptive message and push the latest updates to the remote repository. Always ensure the local and remote repositories are in sync.
+    - **NEVER COMMIT `.env` FILES**: Secret and environment variables MUST stay local. They are ignored by `.gitignore`. Only use `.env.example` for documentation.
+    - **DO NOT MODIFY `.gitignore`**: Never remove items from `.gitignore`, especially security-critical ones like `.env`.
 - **Jellyfin Compatibility**: All series downloads MUST follow the `Series Name/Season XX/SXXEXX - Title.ext` structure.
 - **Logs**: Do not commit the `logs/` folder. Use `logs/torrent_api.log` for debugging decision-making.
 - **Configuration**: Use `app/config.py` and document all keys in `.env.example`.
