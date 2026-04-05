@@ -1,0 +1,276 @@
+2026-04-03 23:22:46,800 - app.main - INFO - === DOWNLOAD REQUEST RECEIVED ===
+2026-04-03 23:22:46,801 - app.main - INFO - Name: Flow
+2026-04-03 23:22:46,801 - app.main - INFO - Type: Movie
+2026-04-03 23:22:46,802 - app.main - INFO - Year: 2024
+2026-04-03 23:22:46,802 - app.main - INFO - Download folder: F:\Torrent_downloader\downloads\movies
+2026-04-03 23:22:46,802 - app.main - INFO - Searching for torrents with query: Flow 2024
+2026-04-03 23:22:46,803 - app.scraper - INFO - Searching Pirate Bay API for: Flow 2024
+2026-04-03 23:22:46,803 - app.scraper - INFO - Searching Pirate Bay API for: Flow 2024
+2026-04-03 23:22:47,856 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:22:47,856 - app.main - INFO - Found 0 torrents
+2026-04-03 23:22:47,857 - app.main - ERROR - No torrents found for: Flow 2024
+2026-04-03 23:25:05,080 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:05,080 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:05,219 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:05,220 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 1/10). Retrying in 0.5s...
+2026-04-03 23:25:05,737 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:05,738 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:05,873 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:05,873 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 2/10). Retrying in 1.0s...
+2026-04-03 23:25:06,862 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:06,863 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:06,998 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:06,999 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 3/10). Retrying in 2.0s...
+2026-04-03 23:25:08,982 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:08,982 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:09,118 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:09,118 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 4/10). Retrying in 4.0s...
+2026-04-03 23:25:13,120 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:13,121 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:13,257 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:13,257 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 5/10). Retrying in 8.0s...
+2026-04-03 23:25:21,269 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:21,270 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:21,405 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:21,406 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 6/10). Retrying in 16.0s...
+2026-04-03 23:25:37,418 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:37,419 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:25:37,556 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:25:37,556 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 7/10). Retrying in 32.0s...
+2026-04-03 23:26:09,546 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:26:09,546 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:26:09,682 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:26:09,682 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 8/10). Retrying in 64.0s...
+2026-04-03 23:27:13,685 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:27:13,686 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:27:13,822 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:27:13,822 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 9/10). Retrying in 128.0s...
+2026-04-03 23:29:21,836 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:21,836 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:21,974 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:21,975 - app.main - ERROR - No torrents found for: The Matrix 1999 after 10 attempts
+2026-04-03 23:29:40,729 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:40,729 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:41,887 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:41,888 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 1/10). Retrying in 0.5s...
+2026-04-03 23:29:42,395 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:42,395 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:42,581 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:42,582 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 2/10). Retrying in 1.0s...
+2026-04-03 23:29:43,584 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:43,584 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:43,754 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:43,755 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 3/10). Retrying in 2.0s...
+2026-04-03 23:29:45,753 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:45,754 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:45,945 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:45,946 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 4/10). Retrying in 4.0s...
+2026-04-03 23:29:49,967 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:49,968 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:50,142 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:50,143 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 5/10). Retrying in 8.0s...
+2026-04-03 23:29:58,164 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:58,164 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:29:58,373 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:29:58,374 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 6/10). Retrying in 16.0s...
+2026-04-03 23:30:14,357 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:30:14,358 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:30:14,360 - app.scraper - ERROR - Pirate Bay API search failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-03 23:30:14,360 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 7/10). Retrying in 32.0s...
+2026-04-03 23:30:46,357 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:30:46,358 - app.scraper - INFO - Searching Pirate Bay API for: The Matrix 1999
+2026-04-03 23:30:47,229 - app.scraper - INFO - Total valid torrents found: 0 out of 1
+2026-04-03 23:30:47,229 - app.main - WARNING - No torrents found for 'The Matrix 1999' (attempt 8/10). Retrying in 64.0s...
+2026-04-03 23:32:28,538 - app.scraper - INFO - Searching Pirate Bay API for: matrix 1999 1999
+2026-04-03 23:32:28,539 - app.scraper - INFO - Searching Pirate Bay API for: matrix 1999 1999
+2026-04-03 23:32:29,920 - app.scraper - INFO - [TORRENT-1] Name: The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:29,921 - app.scraper - INFO -        Hash: D7A46713EAEE18C746B3254B7D1492A50FD9D6CE
+2026-04-03 23:32:29,921 - app.scraper - INFO -        Seeds: 581 | Leeches: 37 | Size: 1.9 GB
+2026-04-03 23:32:29,921 - app.scraper - INFO - [TORRENT-2] Name: The Matrix Reloaded (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:29,922 - app.scraper - INFO -        Hash: 5F67A9966AA41C5E3CFD7C25226D49E1A656C982
+2026-04-03 23:32:29,922 - app.scraper - INFO -        Seeds: 314 | Leeches: 31 | Size: 1.9 GB
+2026-04-03 23:32:29,922 - app.scraper - INFO - [TORRENT-3] Name: The.Matrix.1999.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265
+2026-04-03 23:32:29,923 - app.scraper - INFO -        Hash: 90D3277AA33F639C3533A6D7015E3002C892E2D5
+2026-04-03 23:32:29,923 - app.scraper - INFO -        Seeds: 194 | Leeches: 36 | Size: 3 GB
+2026-04-03 23:32:29,923 - app.scraper - INFO - [TORRENT-4] Name: The Matrix Revolutions (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:29,924 - app.scraper - INFO -        Hash: 0B1FD1CC66B90232DD0298558627173D8B442153
+2026-04-03 23:32:29,924 - app.scraper - INFO -        Seeds: 156 | Leeches: 6 | Size: 1.9 GB
+2026-04-03 23:32:29,924 - app.scraper - INFO - [TORRENT-5] Name: The Matrix 1-4 Pack 1999-2021 REMASTERED 1080p BluRay HEVC x265 5.1 BONE
+2026-04-03 23:32:29,925 - app.scraper - INFO -        Hash: E0593A3DAB881080EFECB54BA6551D4B2D329BF1
+2026-04-03 23:32:29,925 - app.scraper - INFO -        Seeds: 144 | Leeches: 144 | Size: 9.2 GB
+2026-04-03 23:32:29,925 - app.scraper - INFO - [TORRENT-6] Name: The Matrix (1999) 720p BrRip x264 - 700mb - YIFY
+2026-04-03 23:32:29,925 - app.scraper - INFO -        Hash: 363BC6C534B1430C6758318D196CCD61DB61B647
+2026-04-03 23:32:29,926 - app.scraper - INFO -        Seeds: 116 | Leeches: 40 | Size: 703.9 MB
+2026-04-03 23:32:29,926 - app.scraper - INFO - [TORRENT-7] Name: The.Matrix.1999.2160p.UHD.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos
+2026-04-03 23:32:29,927 - app.scraper - INFO -        Hash: 03DD34FEA0FF15A451C1723062A901AA3A0AD458
+2026-04-03 23:32:29,927 - app.scraper - INFO -        Seeds: 85 | Leeches: 18 | Size: 35.4 GB
+2026-04-03 23:32:29,927 - app.scraper - INFO - [TORRENT-8] Name: The.Matrix.1999.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.True
+2026-04-03 23:32:29,928 - app.scraper - INFO -        Hash: 673A8BC41D60B4B20DF1682CC6483EC95DCD8D06
+2026-04-03 23:32:29,928 - app.scraper - INFO -        Seeds: 71 | Leeches: 11 | Size: 34.2 GB
+2026-04-03 23:32:29,928 - app.scraper - INFO - [TORRENT-9] Name: The Matrix 1999 UHD Blu-ray 2160p HDR Remux Multi Atmos 7.1-DTOn
+2026-04-03 23:32:29,929 - app.scraper - INFO -        Hash: 8DC393C100EF0C0D010CFEFDCEBE572E26C4F775
+2026-04-03 23:32:29,929 - app.scraper - INFO -        Seeds: 54 | Leeches: 6 | Size: 51.3 GB
+2026-04-03 23:32:29,929 - app.scraper - INFO - [TORRENT-10] Name: The.Matrix.1999.REMASTERED.RERIP.1080p.BluRay.x264.TrueHD.7.1.At
+2026-04-03 23:32:29,929 - app.scraper - INFO -        Hash: CFFDAAC58475F4E492AACEC1F4671C4287C38806
+2026-04-03 23:32:29,929 - app.scraper - INFO -        Seeds: 47 | Leeches: 2 | Size: 19.3 GB
+2026-04-03 23:32:29,930 - app.scraper - INFO - [TORRENT-11] Name: The.Matrix.1999.2160p.BluRay.HDR.DDP5.1.x265-GalaxyUHD
+2026-04-03 23:32:29,930 - app.scraper - INFO -        Hash: C392386C397245B6F3B88634F348AFA72D88D6D0
+2026-04-03 23:32:29,930 - app.scraper - INFO -        Seeds: 21 | Leeches: 10 | Size: 3.4 GB
+2026-04-03 23:32:29,930 - app.scraper - INFO - [TORRENT-12] Name: The.Matrix.1999.2160p.MAX.WEB-DL.DDPA.5.1.DV.HDR.H.265-PiRaTeS[T
+2026-04-03 23:32:29,931 - app.scraper - INFO -        Hash: 54DC2DD3172F7DD06707124CE0512CD05F12B168
+2026-04-03 23:32:29,931 - app.scraper - INFO -        Seeds: 21 | Leeches: 0 | Size: 21.1 GB
+2026-04-03 23:32:29,931 - app.scraper - INFO - [TORRENT-13] Name: The.Matrix.1999.REMASTERED.1080p.BluRay.H264.AAC-GoodFilms
+2026-04-03 23:32:29,932 - app.scraper - INFO -        Hash: C1DA3C624C20C6FD698618AE0F4C2FFDC549DB49
+2026-04-03 23:32:29,932 - app.scraper - INFO -        Seeds: 20 | Leeches: 13 | Size: 2.7 GB
+2026-04-03 23:32:29,932 - app.scraper - INFO - [TORRENT-14] Name: The Matrix - The Complete Collection (1999-2021) BDRip 1080p
+2026-04-03 23:32:29,933 - app.scraper - INFO -        Hash: 2A83F6E07E4F8A41FAE3D7528FD82A65134FCC2E
+2026-04-03 23:32:29,933 - app.scraper - INFO -        Seeds: 20 | Leeches: 8 | Size: 68.8 GB
+2026-04-03 23:32:29,933 - app.scraper - INFO - [TORRENT-15] Name: The Matrix 1999 1080p UHD BluRay DD7 1 DV HDR x264-HiDt
+2026-04-03 23:32:29,933 - app.scraper - INFO -        Hash: 9479CA9ACA64479A026CCE2811BBAB961A8B86CD
+2026-04-03 23:32:29,934 - app.scraper - INFO -        Seeds: 20 | Leeches: 8 | Size: 22.2 GB
+2026-04-03 23:32:29,934 - app.scraper - INFO - [TORRENT-16] Name: The Matrix Complete 5 Movie Collection Sci-Fi 1999-2021 Eng 1080
+2026-04-03 23:32:29,934 - app.scraper - INFO -        Hash: F154B8D18014263A965D822545DDC29BCA09AAD0
+2026-04-03 23:32:29,934 - app.scraper - INFO -        Seeds: 19 | Leeches: 13 | Size: 31.2 GB
+2026-04-03 23:32:29,934 - app.scraper - INFO - [TORRENT-17] Name: The Matrix 1999 1080p BluRay x264-OFT
+2026-04-03 23:32:29,934 - app.scraper - INFO -        Hash: 74CD12E8EABF0F75BD1F082470BDA4451675F4AA
+2026-04-03 23:32:29,935 - app.scraper - INFO -        Seeds: 19 | Leeches: 8 | Size: 5.9 GB
+2026-04-03 23:32:29,935 - app.scraper - INFO - [TORRENT-18] Name: The Matrix Trilogy - Soundtrack + Score 1999-2003 FLAC
+2026-04-03 23:32:29,935 - app.scraper - INFO -        Hash: 5EE651F3C319D7552EB77C073FCFC509EB184F13
+2026-04-03 23:32:29,935 - app.scraper - INFO -        Seeds: 18 | Leeches: 3 | Size: 2.7 GB
+2026-04-03 23:32:29,935 - app.scraper - INFO - [TORRENT-19] Name: The Matrix Trilogy Complete (1999-2003) 720p 5.1 BRRiP x264 AAC
+2026-04-03 23:32:29,936 - app.scraper - INFO -        Hash: FA8AE4BC6CAEC272AC57C7890D8F893AAB3CAA88
+2026-04-03 23:32:29,936 - app.scraper - INFO -        Seeds: 17 | Leeches: 2 | Size: 3.1 GB
+2026-04-03 23:32:29,936 - app.scraper - INFO - [TORRENT-20] Name: The Matrix 1999 UHD Blu-ray 2160p x265 HDR Atmos 7.1-DTOne
+2026-04-03 23:32:29,936 - app.scraper - INFO -        Hash: AA53E0A5C2582F18E12BF963752AB762B2FEF14C
+2026-04-03 23:32:29,937 - app.scraper - INFO -        Seeds: 17 | Leeches: 1 | Size: 28 GB
+2026-04-03 23:32:29,937 - app.scraper - INFO - Total valid torrents found: 20 out of 100
+2026-04-03 23:32:29,940 - app.main - INFO - === DOWNLOAD REQUEST RECEIVED ===
+2026-04-03 23:32:29,940 - app.main - INFO - Name: matrix
+2026-04-03 23:32:29,940 - app.main - INFO - Type: Movie
+2026-04-03 23:32:29,941 - app.main - INFO - Year: 1999
+2026-04-03 23:32:29,941 - app.main - INFO - Download folder: F:\Torrent_downloader\downloads
+2026-04-03 23:32:29,941 - app.main - INFO - Searching for torrents with query: matrix 1999
+2026-04-03 23:32:29,943 - app.scraper - INFO - Searching Pirate Bay API for: matrix 1999
+2026-04-03 23:32:29,947 - app.scraper - INFO - Searching Pirate Bay API for: matrix 1999
+2026-04-03 23:32:30,699 - app.scraper - INFO - [TORRENT-1] Name: The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,699 - app.scraper - INFO -        Hash: D7A46713EAEE18C746B3254B7D1492A50FD9D6CE
+2026-04-03 23:32:30,700 - app.scraper - INFO -        Seeds: 581 | Leeches: 37 | Size: 1.9 GB
+2026-04-03 23:32:30,700 - app.scraper - INFO - [TORRENT-2] Name: The Matrix Reloaded (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,700 - app.scraper - INFO -        Hash: 5F67A9966AA41C5E3CFD7C25226D49E1A656C982
+2026-04-03 23:32:30,701 - app.scraper - INFO -        Seeds: 314 | Leeches: 31 | Size: 1.9 GB
+2026-04-03 23:32:30,701 - app.scraper - INFO - [TORRENT-3] Name: The.Matrix.1999.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265
+2026-04-03 23:32:30,701 - app.scraper - INFO -        Hash: 90D3277AA33F639C3533A6D7015E3002C892E2D5
+2026-04-03 23:32:30,702 - app.scraper - INFO -        Seeds: 194 | Leeches: 36 | Size: 3 GB
+2026-04-03 23:32:30,702 - app.scraper - INFO - [TORRENT-4] Name: The Matrix Revolutions (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,702 - app.scraper - INFO -        Hash: 0B1FD1CC66B90232DD0298558627173D8B442153
+2026-04-03 23:32:30,702 - app.scraper - INFO -        Seeds: 156 | Leeches: 6 | Size: 1.9 GB
+2026-04-03 23:32:30,703 - app.scraper - INFO - [TORRENT-5] Name: The Matrix 1-4 Pack 1999-2021 REMASTERED 1080p BluRay HEVC x265 5.1 BONE
+2026-04-03 23:32:30,703 - app.scraper - INFO -        Hash: E0593A3DAB881080EFECB54BA6551D4B2D329BF1
+2026-04-03 23:32:30,703 - app.scraper - INFO -        Seeds: 144 | Leeches: 144 | Size: 9.2 GB
+2026-04-03 23:32:30,704 - app.scraper - INFO - [TORRENT-6] Name: The Matrix (1999) 720p BrRip x264 - 700mb - YIFY
+2026-04-03 23:32:30,704 - app.scraper - INFO -        Hash: 363BC6C534B1430C6758318D196CCD61DB61B647
+2026-04-03 23:32:30,705 - app.scraper - INFO -        Seeds: 116 | Leeches: 40 | Size: 703.9 MB
+2026-04-03 23:32:30,705 - app.scraper - INFO - [TORRENT-7] Name: The.Matrix.1999.2160p.UHD.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos
+2026-04-03 23:32:30,705 - app.scraper - INFO -        Hash: 03DD34FEA0FF15A451C1723062A901AA3A0AD458
+2026-04-03 23:32:30,706 - app.scraper - INFO -        Seeds: 85 | Leeches: 18 | Size: 35.4 GB
+2026-04-03 23:32:30,706 - app.scraper - INFO - [TORRENT-8] Name: The.Matrix.1999.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.True
+2026-04-03 23:32:30,706 - app.scraper - INFO -        Hash: 673A8BC41D60B4B20DF1682CC6483EC95DCD8D06
+2026-04-03 23:32:30,707 - app.scraper - INFO -        Seeds: 71 | Leeches: 11 | Size: 34.2 GB
+2026-04-03 23:32:30,707 - app.scraper - INFO - [TORRENT-9] Name: The Matrix 1999 UHD Blu-ray 2160p HDR Remux Multi Atmos 7.1-DTOn
+2026-04-03 23:32:30,707 - app.scraper - INFO -        Hash: 8DC393C100EF0C0D010CFEFDCEBE572E26C4F775
+2026-04-03 23:32:30,707 - app.scraper - INFO -        Seeds: 54 | Leeches: 6 | Size: 51.3 GB
+2026-04-03 23:32:30,707 - app.scraper - INFO - [TORRENT-10] Name: The.Matrix.1999.REMASTERED.RERIP.1080p.BluRay.x264.TrueHD.7.1.At
+2026-04-03 23:32:30,708 - app.scraper - INFO -        Hash: CFFDAAC58475F4E492AACEC1F4671C4287C38806
+2026-04-03 23:32:30,708 - app.scraper - INFO -        Seeds: 47 | Leeches: 2 | Size: 19.3 GB
+2026-04-03 23:32:30,708 - app.scraper - INFO - [TORRENT-11] Name: The.Matrix.1999.2160p.BluRay.HDR.DDP5.1.x265-GalaxyUHD
+2026-04-03 23:32:30,708 - app.scraper - INFO -        Hash: C392386C397245B6F3B88634F348AFA72D88D6D0
+2026-04-03 23:32:30,708 - app.scraper - INFO -        Seeds: 21 | Leeches: 10 | Size: 3.4 GB
+2026-04-03 23:32:30,709 - app.scraper - INFO - [TORRENT-12] Name: The.Matrix.1999.2160p.MAX.WEB-DL.DDPA.5.1.DV.HDR.H.265-PiRaTeS[T
+2026-04-03 23:32:30,709 - app.scraper - INFO -        Hash: 54DC2DD3172F7DD06707124CE0512CD05F12B168
+2026-04-03 23:32:30,709 - app.scraper - INFO -        Seeds: 21 | Leeches: 0 | Size: 21.1 GB
+2026-04-03 23:32:30,709 - app.scraper - INFO - [TORRENT-13] Name: The.Matrix.1999.REMASTERED.1080p.BluRay.H264.AAC-GoodFilms
+2026-04-03 23:32:30,710 - app.scraper - INFO -        Hash: C1DA3C624C20C6FD698618AE0F4C2FFDC549DB49
+2026-04-03 23:32:30,710 - app.scraper - INFO -        Seeds: 20 | Leeches: 13 | Size: 2.7 GB
+2026-04-03 23:32:30,710 - app.scraper - INFO - [TORRENT-14] Name: The Matrix - The Complete Collection (1999-2021) BDRip 1080p
+2026-04-03 23:32:30,711 - app.scraper - INFO -        Hash: 2A83F6E07E4F8A41FAE3D7528FD82A65134FCC2E
+2026-04-03 23:32:30,711 - app.scraper - INFO -        Seeds: 20 | Leeches: 8 | Size: 68.8 GB
+2026-04-03 23:32:30,711 - app.scraper - INFO - [TORRENT-15] Name: The Matrix 1999 1080p UHD BluRay DD7 1 DV HDR x264-HiDt
+2026-04-03 23:32:30,712 - app.scraper - INFO -        Hash: 9479CA9ACA64479A026CCE2811BBAB961A8B86CD
+2026-04-03 23:32:30,712 - app.scraper - INFO -        Seeds: 20 | Leeches: 8 | Size: 22.2 GB
+2026-04-03 23:32:30,712 - app.scraper - INFO - [TORRENT-16] Name: The Matrix Complete 5 Movie Collection Sci-Fi 1999-2021 Eng 1080
+2026-04-03 23:32:30,712 - app.scraper - INFO -        Hash: F154B8D18014263A965D822545DDC29BCA09AAD0
+2026-04-03 23:32:30,713 - app.scraper - INFO -        Seeds: 19 | Leeches: 13 | Size: 31.2 GB
+2026-04-03 23:32:30,713 - app.scraper - INFO - [TORRENT-17] Name: The Matrix 1999 1080p BluRay x264-OFT
+2026-04-03 23:32:30,713 - app.scraper - INFO -        Hash: 74CD12E8EABF0F75BD1F082470BDA4451675F4AA
+2026-04-03 23:32:30,713 - app.scraper - INFO -        Seeds: 19 | Leeches: 8 | Size: 5.9 GB
+2026-04-03 23:32:30,713 - app.scraper - INFO - [TORRENT-18] Name: The Matrix Trilogy - Soundtrack + Score 1999-2003 FLAC
+2026-04-03 23:32:30,714 - app.scraper - INFO -        Hash: 5EE651F3C319D7552EB77C073FCFC509EB184F13
+2026-04-03 23:32:30,714 - app.scraper - INFO -        Seeds: 18 | Leeches: 3 | Size: 2.7 GB
+2026-04-03 23:32:30,714 - app.scraper - INFO - [TORRENT-19] Name: The Matrix Trilogy Complete (1999-2003) 720p 5.1 BRRiP x264 AAC
+2026-04-03 23:32:30,714 - app.scraper - INFO -        Hash: FA8AE4BC6CAEC272AC57C7890D8F893AAB3CAA88
+2026-04-03 23:32:30,715 - app.scraper - INFO -        Seeds: 17 | Leeches: 2 | Size: 3.1 GB
+2026-04-03 23:32:30,715 - app.scraper - INFO - [TORRENT-20] Name: The Matrix 1999 UHD Blu-ray 2160p x265 HDR Atmos 7.1-DTOne
+2026-04-03 23:32:30,716 - app.scraper - INFO -        Hash: AA53E0A5C2582F18E12BF963752AB762B2FEF14C
+2026-04-03 23:32:30,716 - app.scraper - INFO -        Seeds: 17 | Leeches: 1 | Size: 28 GB
+2026-04-03 23:32:30,716 - app.scraper - INFO - Total valid torrents found: 20 out of 100
+2026-04-03 23:32:30,716 - app.main - INFO - Found 20 torrents
+2026-04-03 23:32:30,717 - app.main - INFO - === TORRENTS AVAILABLE FOR SELECTION (20 total) ===
+2026-04-03 23:32:30,717 - app.main - INFO - [1] The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,717 - app.main - INFO -     Seeds: 581 | Leeches: 37 | Size: 1.9 GB
+2026-04-03 23:32:30,717 - app.main - INFO - [2] The Matrix Reloaded (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,718 - app.main - INFO -     Seeds: 314 | Leeches: 31 | Size: 1.9 GB
+2026-04-03 23:32:30,718 - app.main - INFO - [3] The.Matrix.1999.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265
+2026-04-03 23:32:30,718 - app.main - INFO -     Seeds: 194 | Leeches: 36 | Size: 3 GB
+2026-04-03 23:32:30,718 - app.main - INFO - [4] The Matrix Revolutions (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:30,719 - app.main - INFO -     Seeds: 156 | Leeches: 6 | Size: 1.9 GB
+2026-04-03 23:32:30,719 - app.main - INFO - [5] The Matrix 1-4 Pack 1999-2021 REMASTERED 1080p BluRay HEVC x265 5.1 BONE
+2026-04-03 23:32:30,719 - app.main - INFO -     Seeds: 144 | Leeches: 144 | Size: 9.2 GB
+2026-04-03 23:32:30,719 - app.main - INFO - [6] The Matrix (1999) 720p BrRip x264 - 700mb - YIFY
+2026-04-03 23:32:30,720 - app.main - INFO -     Seeds: 116 | Leeches: 40 | Size: 703.9 MB
+2026-04-03 23:32:30,720 - app.main - INFO - [7] The.Matrix.1999.2160p.UHD.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos
+2026-04-03 23:32:30,721 - app.main - INFO -     Seeds: 85 | Leeches: 18 | Size: 35.4 GB
+2026-04-03 23:32:30,721 - app.main - INFO - [8] The.Matrix.1999.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.True
+2026-04-03 23:32:30,722 - app.main - INFO -     Seeds: 71 | Leeches: 11 | Size: 34.2 GB
+2026-04-03 23:32:30,722 - app.main - INFO - [9] The Matrix 1999 UHD Blu-ray 2160p HDR Remux Multi Atmos 7.1-DTOn
+2026-04-03 23:32:30,722 - app.main - INFO -     Seeds: 54 | Leeches: 6 | Size: 51.3 GB
+2026-04-03 23:32:30,722 - app.main - INFO - [10] The.Matrix.1999.REMASTERED.RERIP.1080p.BluRay.x264.TrueHD.7.1.At
+2026-04-03 23:32:30,723 - app.main - INFO -     Seeds: 47 | Leeches: 2 | Size: 19.3 GB
+2026-04-03 23:32:30,723 - app.main - INFO - [11] The.Matrix.1999.2160p.BluRay.HDR.DDP5.1.x265-GalaxyUHD
+2026-04-03 23:32:30,723 - app.main - INFO -     Seeds: 21 | Leeches: 10 | Size: 3.4 GB
+2026-04-03 23:32:30,723 - app.main - INFO - [12] The.Matrix.1999.2160p.MAX.WEB-DL.DDPA.5.1.DV.HDR.H.265-PiRaTeS[T
+2026-04-03 23:32:30,724 - app.main - INFO -     Seeds: 21 | Leeches: 0 | Size: 21.1 GB
+2026-04-03 23:32:30,724 - app.main - INFO - [13] The.Matrix.1999.REMASTERED.1080p.BluRay.H264.AAC-GoodFilms
+2026-04-03 23:32:30,724 - app.main - INFO -     Seeds: 20 | Leeches: 13 | Size: 2.7 GB
+2026-04-03 23:32:30,725 - app.main - INFO - [14] The Matrix - The Complete Collection (1999-2021) BDRip 1080p
+2026-04-03 23:32:30,725 - app.main - INFO -     Seeds: 20 | Leeches: 8 | Size: 68.8 GB
+2026-04-03 23:32:30,725 - app.main - INFO - [15] The Matrix 1999 1080p UHD BluRay DD7 1 DV HDR x264-HiDt
+2026-04-03 23:32:30,726 - app.main - INFO -     Seeds: 20 | Leeches: 8 | Size: 22.2 GB
+2026-04-03 23:32:30,726 - app.main - INFO - [16] The Matrix Complete 5 Movie Collection Sci-Fi 1999-2021 Eng 1080
+2026-04-03 23:32:30,726 - app.main - INFO -     Seeds: 19 | Leeches: 13 | Size: 31.2 GB
+2026-04-03 23:32:30,726 - app.main - INFO - [17] The Matrix 1999 1080p BluRay x264-OFT
+2026-04-03 23:32:30,727 - app.main - INFO -     Seeds: 19 | Leeches: 8 | Size: 5.9 GB
+2026-04-03 23:32:30,727 - app.main - INFO - [18] The Matrix Trilogy - Soundtrack + Score 1999-2003 FLAC
+2026-04-03 23:32:30,727 - app.main - INFO -     Seeds: 18 | Leeches: 3 | Size: 2.7 GB
+2026-04-03 23:32:30,728 - app.main - INFO - [19] The Matrix Trilogy Complete (1999-2003) 720p 5.1 BRRiP x264 AAC
+2026-04-03 23:32:30,728 - app.main - INFO -     Seeds: 17 | Leeches: 2 | Size: 3.1 GB
+2026-04-03 23:32:30,728 - app.main - INFO - [20] The Matrix 1999 UHD Blu-ray 2160p x265 HDR Atmos 7.1-DTOne
+2026-04-03 23:32:30,728 - app.main - INFO -     Seeds: 17 | Leeches: 1 | Size: 28 GB
+2026-04-03 23:32:30,728 - app.main - INFO - === STARTING TORRENT SELECTION ===
+2026-04-03 23:32:30,729 - app.main - INFO - Auto-select enabled: True
+2026-04-03 23:32:30,729 - app.main - INFO - Calling Ollama for movie selection
+2026-04-03 23:32:34,824 - app.ollama_selector - WARNING - Ollama service not available
+2026-04-03 23:32:34,825 - app.ollama_selector - INFO - Ollama not available, selecting by seeds
+2026-04-03 23:32:34,825 - app.ollama_selector - INFO - Selected by seeds: The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:34,825 - app.main - INFO - === SELECTED TORRENT ===
+2026-04-03 23:32:34,826 - app.main - INFO - Name: The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:34,826 - app.main - INFO - Seeds: 581
+2026-04-03 23:32:34,826 - app.main - INFO - Leeches: 37
+2026-04-03 23:32:34,827 - app.main - INFO - Size: 1.9 GB
+2026-04-03 23:32:34,827 - app.main - INFO - Magnet: magnet:?xt=urn:btih:D7A46713EAEE18C746B3254B7D1492A50FD9D6CE&dn=The+Matrix+(1999)+1080p+BrRip+x264+-...
+2026-04-03 23:32:34,827 - app.main - INFO - Adding torrent to aria2...
+2026-04-03 23:32:34,828 - app.aria2_handler - INFO - [ARIA2] Adding torrent download to F:\Torrent_downloader\downloads
+2026-04-03 23:32:34,921 - app.aria2_handler - INFO - [ARIA2] ✓ Torrent added with GID: 92dd44fff908558a
+2026-04-03 23:32:35,334 - app.main - INFO - === DOWNLOAD STARTED ===
+2026-04-03 23:32:35,334 - app.main - INFO - GID: 92dd44fff908558a
+2026-04-03 23:32:35,335 - app.main - INFO - Torrent: The Matrix (1999) 1080p BrRip x264 - 1.85GB - YIFY
+2026-04-03 23:32:35,335 - app.main - INFO - Destination: F:\Torrent_downloader\downloads
