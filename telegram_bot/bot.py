@@ -42,9 +42,9 @@ from app.config import config
 import requests
 
 # Read and validate API URL
-API_URL = os.getenv("API_URL", "http://localhost:8000").strip()
+API_URL = os.getenv("API_URL", "http://localhost:8001").strip()
 if not API_URL:
-    API_URL = "http://localhost:8000"
+    API_URL = "http://localhost:8001"
 # Ensure URL has a scheme
 if not API_URL.startswith(("http://", "https://")):
     API_URL = f"http://{API_URL}"
