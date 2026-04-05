@@ -255,7 +255,7 @@ def resolve_telegram_folder(folder: str | None, content_type: str = "movie") -> 
 async def do_download_request(payload: dict):
     try:
         def _post():
-            return requests.post(f"{API_URL}/download", json=payload, timeout=60)
+            return requests.post(f"{API_URL}/download", json=payload, timeout=600)
 
         return await asyncio.to_thread(_post)
     except Exception as e:
